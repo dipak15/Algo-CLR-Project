@@ -8,12 +8,12 @@
 #include <stdio.h>
 
 void print_array(int *array, int size) {
-	int n = size;
-	int i = 0;
-	for (i = 0; i < n; i++) {
-		printf("%d ", array[i]);
-	}
-	printf("\n");
-	return;
+  int n = size;
+  int i = 0;
+  for (i = 0; i < n; i++) {
+    printf("%d ", array[i]);
+  }
+  printf("\n");
+  return;
 }
 
